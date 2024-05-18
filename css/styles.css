@@ -1,42 +1,47 @@
-*{
+/* *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-body{
+} */
+
+/* 
+ body{
   font-family: fantasy;
-}
+} 
+  */
 
-header{
+ 
+/* header{
   background-color: hsl(0, 0%, 99%);
-}
+}  */
 
-header .logo{
+/* 
+ header .logo{
   display: none;
-}
+}  */
 
-a {
+
+ /* a {
   font-family: serif ;
   color: #22565d;/* Color normal */
-  transition: color 0.3s ease; /* Transición suave de 0.3 segundos */
-}
-
+   /* transition: color 0.3s ease; /*Transición suave de 0.3 segundos } */
+ 
+/* 
 a:hover {
-  color: rgba(0, 0, 0, 0.232); /* Color difuminado al pasar el ratón por encima */
-}
+  color: rgba(0, 0, 0, 0.232); /* Color difuminado al pasar el ratón por encima */ 
+ 
 
-
-html {
+ /* html {
   margin: 0;
   padding: 0;
   font-family: fantasy;
-}
+ } */
 
-* {
+/* * {
   box-sizing: border-box;
-}
-
-.clear {
+}  */
+/* 
+ .clear {
   clear: both;
 }
 
@@ -51,39 +56,39 @@ html {
 
 .d-flex {
   display: flex;
-  
-}
-
+   */
+ 
+/* 
 button,
 input,
 select {
   outline: none;
   font-family: sans-serif;
 }
+ */
 
-
-button,
+/* button,
 .btn,
 select {
   cursor: pointer;
   font-family: fantasy;
-}
+}  */
 
-a,
+/* 
 a:hover {
   text-decoration: none;
   transition: 0.3s ease;
-}
+} */
 
-iframe {
+/* iframe {
   border: none;
-}
-ul {
+} */
+/* ul {
   margin: 0;
   padding: 0;
-}
+} */
 
-h1,
+ /* h1,
 h2,
 h3,
 h4,
@@ -92,17 +97,17 @@ h6 {
   margin: 0;
   padding: 0;
   font-family: fantasy;
-}
+} */
 
-p {
+/* p {
   margin: 0;
   padding: 0;
 }
 
 span.diff {
   color: var(--theme-color);
-}
-
+} */
+/* 
 .btn-theme {
   padding: 12px 30px;
   color: #222222;
@@ -111,7 +116,7 @@ span.diff {
   font-weight: 600;
   transition: 0.3s ease-in;
   border: 0;
-}
+} 
 
 .btn-theme:hover {
   background: var(--theme-color);
@@ -215,19 +220,19 @@ span.diff {
   transition: 0.3s ease-in;
   border: 2px solid #747474;
   background: #747474;
-}
+} */
 
 /* media query de tablet */
 
-@media (max-width: 1024px){
+/* @media (max-width: 1024px){ */
 
-}
+
 /* media query de mobile */
-
+/* 
 @media (max-width: 768px){
   .destinos{
     flex-direction: column;
     align-items: center;
     text-align: center;
   }
-}
+} */

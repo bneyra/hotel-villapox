@@ -1,0 +1,32 @@
+// Estilos Globales // 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  } 
+
+ body{
+    font-family: fantasy;
+  } 
+  
+button,
+input,
+select {
+  outline: none;
+  font-family: sans-serif;
+  button,
+.btn,
+select {
+  cursor: pointer;
+  font-family: fantasy;
+  a:hover {
+    text-decoration: none;
+    transition: 0.3s ease;
+    border: none;
+    ul{
+      margin: 0;
+      padding: 0;
+    }
+  }
+} 
+}

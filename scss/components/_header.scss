@@ -1,0 +1,73 @@
+// Estilos header //
+
+header {
+  background-color: hsl(0, 0%, 99%);
+  
+  .logo {
+    display: none;
+  }
+  
+  .navbar {
+    div {
+      ul {
+        li {
+          a {
+            font-family: serif;
+            color: #22565d; /* Color normal */
+            transition: color 0.3s ease; /* Transición */
+            
+            &:hover {
+              color: rgba(0, 0, 0, 0.232); /* Color difuminado al pasar el ratón por encima */
+            }
+          }
+        }
+      }
+    }
+  }
+  
+  .clear {
+    clear: both;
+  }
+
+  .img-responsive {
+    max-width: 100%;
+    display: block;
+  }
+}
+
+// Estilos globales //
+
+html {
+  margin: 0;
+  padding: 0;
+  font-family: fantasy;
+  box-sizing: border-box;
+}
+
+.d-grid {
+  display: grid;
+}
+
+.d-flex {
+  display: flex;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+  font-family: fantasy;
+
+  p {
+    margin: 0;
+    padding: 0;
+
+    span.diff {
+      color: var(black);  
+    }
+  }
+}
